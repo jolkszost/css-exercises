@@ -5,11 +5,33 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 52px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.plants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+}
+
+.berry, .chili, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+
 }
 
 /* do not edit this footer */
