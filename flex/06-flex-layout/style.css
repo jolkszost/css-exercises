@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 img {
@@ -19,7 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px, 16px;
 }
 
 input {
@@ -32,7 +31,7 @@ input {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #666;
 }
 
 ul {
@@ -59,8 +58,10 @@ ul {
 }
 
 .content {
+  flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
 }
